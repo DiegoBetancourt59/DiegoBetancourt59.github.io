@@ -4,29 +4,144 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>515MEDIA</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+        }
+
+        .top-nav {
+            background-color: rgb(0, 0, 0);
+            height: 35px;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            padding-left: 20px;
+            color: red;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 65px;
+            border-top: 65px solid white;
+            border-bottom: 65px solid white;
+        }
+
+        header {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        header h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-family: 'Roboto', sans-serif;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        main {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+        }
+
+        section {
+            text-align: center;
+            width: 200px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        section a {
+            text-decoration: none;
+            color: red;
+        }
+
+        .middle-image {
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 100px;
+        }
+
+        .middle-image img {
+            width: 50%;
+            height: auto;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 5px;
+            color: white;
+        }
+
+        p.red-text {
+            color: red;
+        }
+
+        .sections {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            width: 100%;
+            padding: 10px 20px;
+            box-sizing: border-box;
+        }
+
+        .sections a {
+            margin-right: 20px;
+            font-size: 16px;
+            color: red;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>515MEDIA</h1> 
-        <p>515MEDIA is committed to the future and beauty of all forms of art</p>
-    </header>
-    <main>
+    <div class="top-nav">
+        <div class="sections">
+            <a href="art.html">ART</a>
+            <a href="fashion.html">FASHION</a>
+            <a href="photography.html">PHOTOGRAPHY</a>
+            <a href="music.html">MUSIC</a>
+        </div>
+    </div>
+    <div class="container">
+        <header>
+            <h1>515MEDIA</h1> 
+            <p>515 is committed to the future and beauty of all forms of art</p>
+            <p class="red-text">so disturbingly infatuated with the world</p>
+        </header>
+        <div class="middle-image">
+            <img src="515 image.jpg">
+        </div>
         <section>
-            <a href="art.html"><h2>ART</h2></a>
+            <p>What is the danger of art?</p>
+            <p>What is the meaning of art?</p>
+            <p>What is the price of art?</p>
+            <p>What is the burden of art?</p>
+            <p>What is the story of art?</p>
+            <p>What is the reason of art?</p>
+            <p>What is the joy of art?</p>
+            <p>What is the taste of art?</p>
         </section>
-        <section>
-            <a href="fashion.html"><h2>FASHION</h2></a>
-        </section>
-        <section>
-            <a href="photography.html"><h2>PHOTOGRAPHY</h2></a>
-        </section>
-        <section>
-            <a href="music.html"><h2>MUSIC</h2></a>
-        </section>
-    </main>
+    </div>
     <footer>
-        <p>&copy; 2024 515MEDIA. All rights reserved.</p>
+        <p>&copy; 2024 515MEDIA</p>
     </footer>
 </body>
 </html>
