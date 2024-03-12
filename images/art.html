@@ -9,11 +9,11 @@
 body {
     background-color: rgb(26, 26, 26);
     color: white;
-    margin: 0; /* Remove default margin */
+    margin: 0; 
 }
 .top-nav {
     background-color: rgb(15, 15, 15);
-    height: 45px; /* Increased height for more spacing */
+    height: 45px; 
     width: 100%;
     position: fixed;
     top: 0;
@@ -23,19 +23,22 @@ body {
     justify-content: flex-start;
     align-items: center;
     padding-left: 20px;
-    color: red;
-    border-bottom: 5px solid black; /* Added border to increase spacing */
 }
 .top-nav a {
     text-decoration: none;
-    color: rgb(194, 0, 0);
-    margin-right: 20px; /* Increased spacing between links */
+    color: rgb(191, 2, 2); 
+    margin-right: 20px; 
 }
+
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 55px; /* Adjusted margin top to accommodate increased height of the nav bar */
+    padding-top: 45px; 
+    text-align: center; 
+    max-width: 800px; 
+    margin: auto; 
+    padding-bottom: 50px; 
 }
 .grid-container {
     display: flex;
@@ -46,6 +49,7 @@ body {
 .box {
     flex: 1 1 200px;
     text-align: center;
+    margin-bottom: 20px; 
 }
 .box img {
     width: 100%;
@@ -55,18 +59,19 @@ body {
 .footer {
     text-align: center;
     padding-top: 10px;
+    color: white; 
 }
 </style>
 </head>
 <body>
-<div class="top-nav">
-    <div class="sections">
+    <div class="top-nav">
+        <div class="sections">
         <a href="index.html">515</a>
         <a href="art.html">ART</a>
         <a href="music.html">MUSIC</a>
         <a href="photography.html">PHOTOGRAPHY</a>
         <a href="aboutus.html">ABOUT US</a>
-    </div>
+        </div>
 </div>
 <div class="container">
     <h2 style="text-align: center;">This month's art submissions</h2>
@@ -77,14 +82,16 @@ body {
             <p>Diego Betancourt. Ive been really into portraits lately. Became really interested in the sacred heart too and wanted to do a full piece.</p>
         </div>
         <div class="box">
-            <img src="art 3.jpg" alt="art 3">
-            <p><strong>Punched for Class</strong></p>
-            <p>Jonathan Rodriguez. Decided to get punched for class. Did so many ideas for this one but the experience was real.</p>
-        </div>
-        <div class="box">
             <img src="art 2.jpg" alt="art 2">
             <p><strong>No Longer Available</strong></p>
             <p>Aleena Sharif. The main idea of my work is confidence. I want to show confident women and promote the idea of living life loud and unapologetically.</p>
+        </div>
+    </div>
+    <div class="grid-container">
+        <div class="box">
+            <img src="art 3.jpg" alt="art 3">
+            <p><strong>Punched for Class</strong></p>
+            <p>Jonathan Rodriguez. Decided to get punched for class. Did so many ideas for this one but the experience was real.</p>
         </div>
         <div class="box">
             <img src="art 4.jpg" alt="art 4">
